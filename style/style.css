@@ -103,8 +103,148 @@ header{
     justify-content:center;
     background-color:#E8BA2E;
     width:96%;
-    height: 30vh; 
-    margin:40px 2%;
+    height: 25vh; 
+    margin:30px 2%;
+} 
+
+.stat h3{
+    font-size:72px;
+    font-weight:bold;
+    margin-top:15px;
+} 
+
+.stat p{
+    font-size:16px;
+    color:#575757;
+} 
+
+
+/* Explore host style */ 
+
+.explore-host-head{
+    font-size:45px;
+    font-weight:600;
+    text-align:center;
+    margin:60px 0;
+
+} 
+
+.host-cities{
+    display:flex; 
+    justify-content:center;
+    gap:60px; 
+    margin:18px 8%;
+    margin-top: 40px;
+
+} 
+
+.host-cities-content{
+    display:grid;
+    gap:6px;
+} 
+
+.host-cities-content h3{
+    font-size:36px;
+    font-weight:bold;
+} 
+.host-cities-content p{
+    font-size:16px;
+    color:#575757;
+    width:58%;
+    line-height: 150%;
+} 
+
+
+.host-cities-list {
+    display: grid;
+    gap:5px;
+    font-size:16px;
+    color:#575757;
+    margin-left:20px;
+} 
+
+.host-btn{
+    background-color:#E8BA2E;
+    border:none;
+    border-radius:10px;
+    padding:20px 1%;
+    cursor:pointer;
+    margin: 30px 40%;
+    display:flex;
+    align-items:center; 
+    gap:10px;
+
+    
+    
+
+} 
+
+/* Matches table style */ 
+
+.matches-table .top{
+     
+    margin:50px 10%;
+    display:grid;
+    gap:10px;
+}  
+
+.matches-table .top p{
+    font-size:16px;
+    color:#575757;
+} 
+
+.matches-table .top h3{
+    font-size:32px;
+    font-weight:bold;
 }
+
+.schedule-table{
+    width:80%;
+    border-collapse: collapse;
+    margin:1px auto;
+
+} 
+
+.schedule-table th{
+    background-color:#A73131 ;
+    color:white;
+}
+
+.schedule-table th,
+.schedule-table td{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+} 
+
+.schedule-table  .date-time{
+    color:#A73131;
+} 
+   .open{
+    color:#A73131;
+   } 
+
+   /* footer style */ 
+
+   footer{
+    background-color:#F0F9FF ;
+    width:100%;
+    height:40vh;
+    margin-top:20px;
+   } 
+
+   .footer-section{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin:20px 10%;
+    padding-top: 5%;
+    gap:200px;
+    
+
+   } 
+
+   
+
 
 
